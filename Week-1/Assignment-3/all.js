@@ -1,4 +1,8 @@
 function delayedResult(n1, n2, delayTime, callback) {
+    /* 
+    1. n1 + n2 was passed as an argument(result) to callback function
+    2. After delay time, the callback function is executed and print the result
+    */ 
     setTimeout(()=>{
         callback(n1 + n2);
     }, delayTime);
